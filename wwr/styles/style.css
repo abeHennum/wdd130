@@ -11,7 +11,8 @@
 header {
     background-color: #F0F3BD;
         display: grid;
-        grid-template-columns: 150px auto;     
+        grid-template-columns: 150px auto;   
+        opacity: .8;
 }
 
 .logo{
@@ -38,6 +39,7 @@ nav a {
 nav {
     display: flex;
     justify-content: space-around;
+    
 }
              
 
@@ -90,8 +92,8 @@ main section img {
 
 #background {
     height: 725px;
-    background-color: #028090;
-    grid-column: 1-11;
+    background-color: #F0F3BD;
+    grid-column: 1/11;
     grid-row: 4/9; 
 }
 
@@ -153,8 +155,8 @@ body {
 
 .book,
 .join {
-    background-color: #028090;
-    color: white;
+    background-color: #F0F3BD;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -169,7 +171,7 @@ body {
 }
 
 .msg {
-    background-color: #F0F3BD;
+    background-color: #028090;
     color: white;
     line-height: 1.5em;
     padding: 35px;
@@ -237,6 +239,39 @@ footer p{
 footer .social img {
     padding-top: 15px; 
 }
+
+/* Rivers page */
+
+.rivers-post{
+    min-height: 450px;
+}
+
+.rivers-post p{
+    padding: 15px;
+}
+
+.rivers-post img{
+   float:left;
+   border: black 10px solid; 
+   margin: 15px;
+}
+
+.rivers-post2 img{
+    float:right;
+    border: black 10px solid; 
+    margin: 15px;
+}
+
+.rivers-post2{
+    min-height: 425px;
+}
+
+.rivers-post3 img{
+    float:left; 
+    border: black 10px solid; 
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
