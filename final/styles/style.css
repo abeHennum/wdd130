@@ -40,6 +40,8 @@
     row-gap: 25px ;
     margin-top: 50px ;
     margin-bottom: -150px ;
+    margin-left: 10px ;
+    margin-right: 10px ; 
 } 
 
 .info1{
@@ -56,6 +58,7 @@
 .info1 p{
     padding-left: 25px ; 
     padding-right:25px ;
+    padding-top: 75px ;
 }
 
 
@@ -96,7 +99,7 @@
 .info4{
     grid-column: 1/11 ;
     grid-row: 7/8 ;
-    border-radius: 10% ;
+    border-radius: 20% ;
     border: solid white 5px ; 
     background-color: #1c2c5b ;
     color: white ; 
@@ -150,6 +153,8 @@ nav a:hover{
 
 body{
     background-color: #6cabdd;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 footer {
