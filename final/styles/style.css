@@ -169,3 +169,70 @@ footer {
 }
 
 
+/* Achievement Page */ 
+
+.achievements-grid{
+    display: grid ; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr ; 
+    column-gap: 16px ;
+    font-size: 26px ;
+    column-gap: 16px ; 
+    row-gap: 16px ;
+    margin-top: 25px ; 
+    margin-left: 10px ;
+    margin-right: 10px ; 
+    margin-bottom: -175px ; 
+}
+
+.first img{
+    border: white solid 5px ; 
+    border-radius: 15% ;
+}
+
+
+.third {
+    grid-column: 1/2 ;
+    grid-row: 1/2 ;
+
+}
+
+.third img {
+     
+    width: 100% ;
+    border: white solid 5px ; 
+    border-radius: 15% ;
+}
+
+
+
+.second{
+    grid-column: 2/3 ;
+    grid-row: 1/2 ;
+    background-color: #1c2c5b;
+    color: white ; 
+    border: white solid 5px ; 
+    border-radius: 15% ;
+    padding: 20px 20px 20px 20px ; 
+}
+
+.second h3 {
+    text-align: center ;
+    font-size: 1.1em ;
+}
+
+.first{
+    grid-column: 2/3 ;
+    grid-row: 2/3 
+}
+
+.fourth{
+    grid-column: 1/2 ;
+    grid-row: 2/3 ; 
+    background-color: #1c2c5b;
+    color: white ; 
+    border: white solid 5px ; 
+    border-radius: 15% ;
+    padding: 20px 20px 20px 20px ; 
+    padding-top: 50px ;  
+}
