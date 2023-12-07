@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Mina&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+
+
 
 #hero{
     display: grid ; 
@@ -59,10 +64,12 @@
     padding-left: 25px ; 
     padding-right:25px ;
     padding-top: 75px ;
+    font-family: Mina, Actor, helvetica ; 
 }
 
 .info1 h3{
     color:#D4AC0D;
+    font-family: 'Barlow Condensed', AudioWide; 
 }
 
 .info2{
@@ -81,6 +88,7 @@
     padding-top: 75px ;
     padding-left: 25px ; 
     padding-right: 25px ; 
+    font-family: Mina, Actor, helvetica ; 
 }
 
 .info2 p h3{
@@ -89,6 +97,7 @@
 
 .info2 h3{
     color:#D4AC0D; 
+    font-family: 'Barlow Condensed', AudioWide; 
 }
 
 .info3{
@@ -115,6 +124,11 @@
 
 .info4 h3{
     color:#D4AC0D; 
+    font-family: 'Barlow Condensed', AudioWide; 
+}
+
+.info4 p{
+    font-family: Mina, Actor, helvetica ; 
 }
 
 
@@ -131,6 +145,11 @@
 
 .info5 h3{
     color:#D4AC0D;
+    font-family: 'Barlow Condensed', AudioWide; 
+}
+
+.info5 p{
+    font-family: Mina, Actor, helvetica ; 
 }
 
 header{
@@ -227,7 +246,7 @@ footer {
 .second h3, .second p{
     text-align: center ;
     font-size: 1.7em ;
-    padding: 20px; 
+    padding: 10px; 
     padding-top: 100px; 
 }
 
@@ -240,12 +259,14 @@ footer {
 }
 
 #secondid p{
- padding:20px; 
+ padding:10px; 
+ font-family: Mina, Actor, helvetica ; 
 }
 
 #secondid h3{
     color:#D4AC0D;
     font-size: 2em;
+    font-family: 'Barlow Condensed', AudioWide; 
 }
 
 
@@ -273,6 +294,11 @@ footer {
 #fourthid h3{
     color:#D4AC0D; 
     font-size:2em;
+    font-family: 'Barlow Condensed', AudioWide; 
+}
+
+#fourthid p{
+    font-family: Mina, Actor, helvetica ; 
 }
 
 /* Legends page */
@@ -297,15 +323,26 @@ footer {
     margin:10px;
 }
 
+#row1-1 section{
+    align-self: center; 
+}
+
 .segundo h3{
     color:#D4AC0D;
+    font-family: 'Barlow Condensed', AudioWide ; 
 }
+
 
 .segundo{
     grid-column: 2/3; 
     color:white; 
     font-size: 1.7em; 
     padding:10px; 
+    text-align: center; 
+}
+
+.segundo p{
+    font-family: Mina, Actor, helvetica ; 
 }
 
 .tercero{
@@ -323,6 +360,11 @@ footer {
 
 .tercero h3{
     color:#D4AC0D; 
+    font-family: 'Barlow Condensed', AudioWide; 
+}
+
+.tercero p{
+   font-family: Mina, Actor, helvetica ; 
 }
 
 #row2-1{
@@ -347,13 +389,15 @@ footer {
     
 }
 
+#row3-1 section{
+    align-self: center; 
+}
 
 .quarto img{
     grid-column: 2/3; 
     border: solid #D4AC0D 5px;
     border-radius: 30%;
-    margin:10px; 
-    
+    margin:10px;    
 }
 
 .quinto{
@@ -363,10 +407,16 @@ footer {
     font-size: 1.7em;
     padding:10px;
     padding-left:20px; 
+    text-align: center;
 }
 
 .quinto h3{
     color:#D4AC0D;
+    font-family: 'Barlow Condensed', AudioWide; 
+}
+
+.quinto p{
+   font-family:  Mina, Actor, helvetica ; 
 }
 
 
